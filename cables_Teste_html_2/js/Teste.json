@@ -1,0 +1,1443 @@
+{
+    "_id": "69a6b3870ba2f5b637589120",
+    "ops": [
+        {
+            "id": "buwpak2ia",
+            "portsIn": [
+                {
+                    "name": "Max Pixel Density (DPR)",
+                    "value": 2
+                },
+                {
+                    "name": "FPS Limit",
+                    "value": 0
+                },
+                {
+                    "name": "Reduce FPS unfocussed",
+                    "value": 0
+                },
+                {
+                    "name": "Transparent",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Focus canvas",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "cfc6sh44n",
+                            "objOut": "buwpak2ia"
+                        }
+                    ]
+                },
+                {
+                    "name": "width",
+                    "value": 1252
+                },
+                {
+                    "name": "height",
+                    "value": 754
+                },
+                {
+                    "name": "Pixel Density",
+                    "value": 2
+                }
+            ],
+            "objName": "Ops.Gl.MainLoop_v2"
+        },
+        {
+            "id": "cfc6sh44n",
+            "portsIn": [
+                {
+                    "name": "radius",
+                    "value": 0.72
+                },
+                {
+                    "name": "innerRadius",
+                    "value": 0.484
+                },
+                {
+                    "name": "segments",
+                    "value": 9
+                },
+                {
+                    "name": "percent",
+                    "value": 1
+                },
+                {
+                    "name": "steps",
+                    "value": 1.9
+                },
+                {
+                    "name": "invertSteps",
+                    "value": 0
+                },
+                {
+                    "name": "mapping index",
+                    "value": 0
+                },
+                {
+                    "name": "mapping",
+                    "value": "flat"
+                },
+                {
+                    "name": "Spline",
+                    "value": 0
+                },
+                {
+                    "name": "Draw",
+                    "value": 1,
+                    "title": "Render mesh"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "geometry",
+                    "links": [
+                        {
+                            "portIn": "Object",
+                            "portOut": "geometry",
+                            "objIn": "57c7xfypc",
+                            "objOut": "cfc6sh44n"
+                        },
+                        {
+                            "portIn": "Object",
+                            "portOut": "geometry",
+                            "objIn": "v0km0fy81",
+                            "objOut": "cfc6sh44n"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Graphics.Meshes.Circle_v3"
+        },
+        {
+            "id": "v0km0fy81",
+            "portsOut": [
+                {
+                    "name": "Changed",
+                    "links": [
+                        {
+                            "portIn": "exe",
+                            "portOut": "Changed",
+                            "objIn": "eku19zj9c",
+                            "objOut": "v0km0fy81"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Trigger.TriggerOnChangeObject_v2"
+        },
+        {
+            "id": "57c7xfypc",
+            "portsIn": [
+                {
+                    "name": "ZoomText",
+                    "value": 0
+                },
+                {
+                    "name": "Line Numbers",
+                    "value": 0
+                },
+                {
+                    "name": "Sort Keys",
+                    "value": 0
+                },
+                {
+                    "name": "Font Size",
+                    "value": 10
+                },
+                {
+                    "name": "Scroll",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Ui.VizObject"
+        },
+        {
+            "id": "eku19zj9c",
+            "portsOut": [
+                {
+                    "name": "trigger 2",
+                    "links": [
+                        {
+                            "portIn": "Render",
+                            "portOut": "trigger 2",
+                            "objIn": "sjj8mi2v3",
+                            "objOut": "eku19zj9c"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Trigger.Sequence"
+        },
+        {
+            "id": "z3n9lv546",
+            "portsOut": [
+                {
+                    "name": "CSS Width",
+                    "value": 626
+                },
+                {
+                    "name": "CSS Height",
+                    "value": 377
+                },
+                {
+                    "name": "Pixel Ratio",
+                    "value": 2
+                },
+                {
+                    "name": "Pixel Width",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "Pixel Width",
+                            "objIn": "bomg2i4xf",
+                            "objOut": "z3n9lv546"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pixel Height",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "Pixel Height",
+                            "objIn": "nkep5s44w",
+                            "objOut": "z3n9lv546"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aspect Ratio",
+                    "value": 1.660477453580902
+                },
+                {
+                    "name": "Landscape",
+                    "value": 1
+                }
+            ],
+            "objName": "Ops.Gl.CanvasInfo_v3"
+        },
+        {
+            "id": "nkep5s44w",
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": 2
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Height",
+                            "portOut": "result",
+                            "objIn": "sjj8mi2v3",
+                            "objOut": "nkep5s44w"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Math.Divide"
+        },
+        {
+            "id": "bomg2i4xf",
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": 2
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Width",
+                            "portOut": "result",
+                            "objIn": "sjj8mi2v3",
+                            "objOut": "bomg2i4xf"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Math.Divide"
+        },
+        {
+            "id": "sjj8mi2v3",
+            "portsIn": [
+                {
+                    "name": "Size index",
+                    "value": 0
+                },
+                {
+                    "name": "Size",
+                    "value": "Auto"
+                },
+                {
+                    "name": "Filter index",
+                    "value": 1
+                },
+                {
+                    "name": "Filter",
+                    "value": "linear"
+                },
+                {
+                    "name": "Wrap index",
+                    "value": 1
+                },
+                {
+                    "name": "Wrap",
+                    "value": "repeat"
+                },
+                {
+                    "name": "Anisotropic index",
+                    "value": 0
+                },
+                {
+                    "name": "Anisotropic",
+                    "value": "0"
+                },
+                {
+                    "name": "Pixel Format index",
+                    "value": 4
+                },
+                {
+                    "name": "Pixel Format",
+                    "value": "RGBA 8bit ubyte"
+                },
+                {
+                    "name": "Clear",
+                    "value": 1
+                },
+                {
+                    "name": "R",
+                    "value": 0
+                },
+                {
+                    "name": "G",
+                    "value": 0
+                },
+                {
+                    "name": "B",
+                    "value": 0
+                },
+                {
+                    "name": "A",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Aspect Ratio",
+                    "value": 5.704225352112676
+                },
+                {
+                    "name": "Texture Width",
+                    "value": 1620
+                },
+                {
+                    "name": "Texture Height",
+                    "value": 284
+                }
+            ],
+            "objName": "Ops.Gl.ImageCompose.ImageCompose_v4"
+        },
+        {
+            "id": "2kcms2mlc",
+            "portsIn": [
+                {
+                    "name": "blendMode index",
+                    "value": 0
+                },
+                {
+                    "name": "blendMode",
+                    "value": "normal"
+                },
+                {
+                    "name": "amount",
+                    "value": 1
+                },
+                {
+                    "name": "Premultiplied",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask",
+                    "value": 0
+                },
+                {
+                    "name": "removeAlphaSrc",
+                    "value": 0
+                },
+                {
+                    "name": "Mask Src index",
+                    "value": 1
+                },
+                {
+                    "name": "Mask Src",
+                    "value": "luminance"
+                },
+                {
+                    "name": "Invert alpha channel",
+                    "value": 0
+                },
+                {
+                    "name": "Aspect Ratio",
+                    "value": 0
+                },
+                {
+                    "name": "Stretch Axis index",
+                    "value": 0
+                },
+                {
+                    "name": "Stretch Axis",
+                    "value": "X"
+                },
+                {
+                    "name": "Position",
+                    "value": 0
+                },
+                {
+                    "name": "Crop",
+                    "value": 0
+                },
+                {
+                    "name": "flip x",
+                    "value": 0
+                },
+                {
+                    "name": "flip y",
+                    "value": 0
+                },
+                {
+                    "name": "Transform",
+                    "value": 0
+                },
+                {
+                    "name": "Scale X",
+                    "value": 1
+                },
+                {
+                    "name": "Scale Y",
+                    "value": 1
+                },
+                {
+                    "name": "Position X",
+                    "value": 0
+                },
+                {
+                    "name": "Position Y",
+                    "value": 0
+                },
+                {
+                    "name": "Rotation",
+                    "value": 0
+                },
+                {
+                    "name": "Clip Repeat",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Gl.ImageCompose.DrawImage_v3"
+        },
+        {
+            "id": "kmi59btye",
+            "portsIn": [
+                {
+                    "name": "min distance",
+                    "value": 1
+                },
+                {
+                    "name": "max distance",
+                    "value": 999999
+                },
+                {
+                    "name": "min rot y",
+                    "value": 0
+                },
+                {
+                    "name": "max rot y",
+                    "value": 0
+                },
+                {
+                    "name": "initial radius",
+                    "value": 2
+                },
+                {
+                    "name": "initial axis y",
+                    "value": 0.5
+                },
+                {
+                    "name": "initial axis x",
+                    "value": 0.25
+                },
+                {
+                    "name": "Smoothness",
+                    "value": 1
+                },
+                {
+                    "name": "Speed X",
+                    "value": 1
+                },
+                {
+                    "name": "Speed Y",
+                    "value": 1
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Allow Panning",
+                    "value": 1
+                },
+                {
+                    "name": "Allow Zooming",
+                    "value": 1
+                },
+                {
+                    "name": "Allow Rotation",
+                    "value": 1
+                },
+                {
+                    "name": "restricted",
+                    "value": 1
+                },
+                {
+                    "name": "Identity",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "radius",
+                    "value": 2
+                },
+                {
+                    "name": "Rot X",
+                    "value": 0
+                },
+                {
+                    "name": "Rot Y",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Graphics.OrbitControls_v3"
+        },
+        {
+            "id": "s67rkbwvx",
+            "portsIn": [
+                {
+                    "name": "Separate inc/dec",
+                    "value": 0
+                },
+                {
+                    "name": "Value",
+                    "value": 0
+                },
+                {
+                    "name": "Inc factor",
+                    "value": 4,
+                    "title": "Inc/Dec factor"
+                },
+                {
+                    "name": "Dec factor",
+                    "value": 4
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Anim.Smooth"
+        },
+        {
+            "id": "atezfroig",
+            "portsIn": [
+                {
+                    "name": "Number",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Ui.VizNumber"
+        },
+        {
+            "id": "x7krw2atz",
+            "portsIn": [
+                {
+                    "name": "Max Pixel Density (DPR)",
+                    "value": 2
+                },
+                {
+                    "name": "FPS Limit",
+                    "value": 0
+                },
+                {
+                    "name": "Reduce FPS unfocussed",
+                    "value": 0
+                },
+                {
+                    "name": "Transparent",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Focus canvas",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "6fzb5my9v",
+                            "objOut": "x7krw2atz"
+                        }
+                    ]
+                },
+                {
+                    "name": "width",
+                    "value": 1252
+                },
+                {
+                    "name": "height",
+                    "value": 754
+                },
+                {
+                    "name": "Pixel Density",
+                    "value": 2
+                }
+            ],
+            "objName": "Ops.Gl.MainLoop_v2"
+        },
+        {
+            "id": "acvv8m332",
+            "portsIn": [
+                {
+                    "name": "Repeats",
+                    "value": 5
+                },
+                {
+                    "name": "Direction index",
+                    "value": 0
+                },
+                {
+                    "name": "Direction",
+                    "value": "Forward"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Next",
+                    "links": [
+                        {
+                            "portIn": "Execute",
+                            "portOut": "Next",
+                            "objIn": "ppa4ye9tq",
+                            "objOut": "acvv8m332"
+                        }
+                    ]
+                },
+                {
+                    "name": "index",
+                    "links": [
+                        {
+                            "portIn": "posX",
+                            "portOut": "index",
+                            "objIn": "pc1yv0pqb",
+                            "objOut": "acvv8m332"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Trigger.Repeat_v2"
+        },
+        {
+            "id": "kddfmtrqm",
+            "portsIn": [
+                {
+                    "name": "radius",
+                    "value": 0.5
+                },
+                {
+                    "name": "innerRadius",
+                    "value": 0
+                },
+                {
+                    "name": "segments",
+                    "value": 40
+                },
+                {
+                    "name": "percent",
+                    "value": 1
+                },
+                {
+                    "name": "steps",
+                    "value": 0
+                },
+                {
+                    "name": "invertSteps",
+                    "value": 0
+                },
+                {
+                    "name": "mapping index",
+                    "value": 0
+                },
+                {
+                    "name": "mapping",
+                    "value": "flat"
+                },
+                {
+                    "name": "Spline",
+                    "value": 0
+                },
+                {
+                    "name": "Draw",
+                    "value": 1,
+                    "title": "Render mesh"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Render",
+                            "portOut": "trigger",
+                            "objIn": "isiakh0hm",
+                            "objOut": "kddfmtrqm"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Graphics.Meshes.Circle_v3"
+        },
+        {
+            "id": "pc1yv0pqb",
+            "portsIn": [
+                {
+                    "name": "posZ",
+                    "value": 0
+                },
+                {
+                    "name": "scale",
+                    "value": 0.9
+                },
+                {
+                    "name": "rotX",
+                    "value": 0
+                },
+                {
+                    "name": "rotY",
+                    "value": 0
+                },
+                {
+                    "name": "rotZ",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "kddfmtrqm",
+                            "objOut": "pc1yv0pqb"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Graphics.Transform"
+        },
+        {
+            "id": "ppa4ye9tq",
+            "portsIn": [
+                {
+                    "name": "Repeats",
+                    "value": 5
+                },
+                {
+                    "name": "Direction index",
+                    "value": 0
+                },
+                {
+                    "name": "Direction",
+                    "value": "Forward"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Next",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "Next",
+                            "objIn": "pc1yv0pqb",
+                            "objOut": "ppa4ye9tq"
+                        }
+                    ]
+                },
+                {
+                    "name": "index",
+                    "links": [
+                        {
+                            "portIn": "posY",
+                            "portOut": "index",
+                            "objIn": "pc1yv0pqb",
+                            "objOut": "ppa4ye9tq"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Trigger.Repeat_v2"
+        },
+        {
+            "id": "6fzb5my9v",
+            "portsIn": [
+                {
+                    "name": "posX",
+                    "value": -0.5
+                },
+                {
+                    "name": "posY",
+                    "value": -0.5
+                },
+                {
+                    "name": "posZ",
+                    "value": 0
+                },
+                {
+                    "name": "scale",
+                    "value": 0.3
+                },
+                {
+                    "name": "rotX",
+                    "value": 0
+                },
+                {
+                    "name": "rotY",
+                    "value": 0
+                },
+                {
+                    "name": "rotZ",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Execute",
+                            "portOut": "trigger",
+                            "objIn": "acvv8m332",
+                            "objOut": "6fzb5my9v"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Graphics.Transform"
+        },
+        {
+            "id": "isiakh0hm",
+            "portsIn": [
+                {
+                    "name": "r",
+                    "value": 1
+                },
+                {
+                    "name": "g",
+                    "value": 1
+                },
+                {
+                    "name": "b",
+                    "value": 1
+                },
+                {
+                    "name": "Opacity",
+                    "value": 1
+                },
+                {
+                    "name": "AO Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Normal Map Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Repeat X",
+                    "value": 1
+                },
+                {
+                    "name": "Repeat Y",
+                    "value": 1
+                },
+                {
+                    "name": "Offset X",
+                    "value": 0
+                },
+                {
+                    "name": "Offset Y",
+                    "value": 0
+                },
+                {
+                    "name": "Double Sided",
+                    "value": 0
+                },
+                {
+                    "name": "Screen Space Normals",
+                    "value": 0
+                },
+                {
+                    "name": "Calc normal tangents",
+                    "value": 1
+                },
+                {
+                    "name": "Opacity TexCoords Transform",
+                    "value": 0
+                },
+                {
+                    "name": "Discard Transparent Pixels",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source index",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source",
+                    "value": "Luminance"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Next",
+                    "links": [
+                        {
+                            "portIn": "Render",
+                            "portOut": "Next",
+                            "objIn": "xuc4h3yc1",
+                            "objOut": "isiakh0hm"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Gl.Shader.MatCapMaterial_v3"
+        },
+        {
+            "id": "xuc4h3yc1",
+            "portsIn": [
+                {
+                    "name": "Render Mesh",
+                    "value": 1
+                },
+                {
+                    "name": "Width",
+                    "value": 1
+                },
+                {
+                    "name": "Length",
+                    "value": 1
+                },
+                {
+                    "name": "Height",
+                    "value": 1
+                },
+                {
+                    "name": "Center",
+                    "value": 1
+                },
+                {
+                    "name": "Mapping index",
+                    "value": 0
+                },
+                {
+                    "name": "Mapping",
+                    "value": "Side"
+                },
+                {
+                    "name": "Bias",
+                    "value": 0
+                },
+                {
+                    "name": "Flip X",
+                    "value": 1
+                },
+                {
+                    "name": "Top",
+                    "value": 1
+                },
+                {
+                    "name": "Bottom",
+                    "value": 1
+                },
+                {
+                    "name": "Left",
+                    "value": 1
+                },
+                {
+                    "name": "Right",
+                    "value": 1
+                },
+                {
+                    "name": "Front",
+                    "value": 1
+                },
+                {
+                    "name": "Back",
+                    "value": 1
+                }
+            ],
+            "objName": "Ops.Graphics.Meshes.Cube_v2"
+        },
+        {
+            "id": "f5ssmv8o7",
+            "portsIn": [
+                {
+                    "name": "File",
+                    "value": 0,
+                    "display": "file"
+                },
+                {
+                    "name": "Filter index",
+                    "value": 2
+                },
+                {
+                    "name": "Filter",
+                    "value": "mipmap"
+                },
+                {
+                    "name": "Wrap index",
+                    "value": 0
+                },
+                {
+                    "name": "Wrap",
+                    "value": "repeat"
+                },
+                {
+                    "name": "Anisotropic index",
+                    "value": 0
+                },
+                {
+                    "name": "Anisotropic",
+                    "value": "0"
+                },
+                {
+                    "name": "Data Format index",
+                    "value": 3
+                },
+                {
+                    "name": "Data Format",
+                    "value": "RGBA"
+                },
+                {
+                    "name": "Flip",
+                    "value": 0
+                },
+                {
+                    "name": "Pre Multiplied Alpha",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Save Memory",
+                    "value": 1
+                },
+                {
+                    "name": "Add Cachebuster",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Width",
+                    "value": 0
+                },
+                {
+                    "name": "Height",
+                    "value": 0
+                },
+                {
+                    "name": "Aspect Ratio",
+                    "value": 0
+                },
+                {
+                    "name": "Loaded",
+                    "value": 0
+                },
+                {
+                    "name": "Loading",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Gl.Texture_v2"
+        },
+        {
+            "id": "3vtas3h57",
+            "portsIn": [
+                {
+                    "name": "Max Pixel Density (DPR)",
+                    "value": 2
+                },
+                {
+                    "name": "FPS Limit",
+                    "value": 0
+                },
+                {
+                    "name": "Reduce FPS unfocussed",
+                    "value": 0
+                },
+                {
+                    "name": "Transparent",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Focus canvas",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "sr0su1otk",
+                            "objOut": "3vtas3h57"
+                        }
+                    ]
+                },
+                {
+                    "name": "width",
+                    "value": 1252
+                },
+                {
+                    "name": "height",
+                    "value": 754
+                },
+                {
+                    "name": "Pixel Density",
+                    "value": 2
+                }
+            ],
+            "objName": "Ops.Gl.MainLoop_v2"
+        },
+        {
+            "id": "hz69nc4mz",
+            "portsIn": [
+                {
+                    "name": "radius",
+                    "value": 0.63
+                },
+                {
+                    "name": "innerRadius",
+                    "value": 0.563
+                },
+                {
+                    "name": "segments",
+                    "value": 421
+                },
+                {
+                    "name": "percent",
+                    "value": 1
+                },
+                {
+                    "name": "steps",
+                    "value": -1.95
+                },
+                {
+                    "name": "invertSteps",
+                    "value": 0
+                },
+                {
+                    "name": "mapping index",
+                    "value": 0
+                },
+                {
+                    "name": "mapping",
+                    "value": "flat"
+                },
+                {
+                    "name": "Spline",
+                    "value": 0
+                },
+                {
+                    "name": "Draw",
+                    "value": 1,
+                    "title": "Render mesh"
+                }
+            ],
+            "objName": "Ops.Graphics.Meshes.Circle_v3"
+        },
+        {
+            "id": "sr0su1otk",
+            "portsIn": [
+                {
+                    "name": "posX",
+                    "value": 0.7
+                },
+                {
+                    "name": "posY",
+                    "value": 0.2
+                },
+                {
+                    "name": "posZ",
+                    "value": 0
+                },
+                {
+                    "name": "scale",
+                    "value": 0.93
+                },
+                {
+                    "name": "rotX",
+                    "value": -23.07
+                },
+                {
+                    "name": "rotY",
+                    "value": -16.18
+                },
+                {
+                    "name": "rotZ",
+                    "value": -2.52
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "p3oc4o835",
+                            "objOut": "sr0su1otk"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Graphics.Transform"
+        },
+        {
+            "id": "p3oc4o835",
+            "portsIn": [
+                {
+                    "name": "r",
+                    "value": 0.2563094099362691
+                },
+                {
+                    "name": "g",
+                    "value": 0.5190754719175216
+                },
+                {
+                    "name": "b",
+                    "value": 0.5484895833333333
+                },
+                {
+                    "name": "a",
+                    "value": 1
+                },
+                {
+                    "name": "colorizeTexture",
+                    "value": 0
+                },
+                {
+                    "name": "Vertex Colors",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source index",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source",
+                    "value": "Luminance"
+                },
+                {
+                    "name": "Opacity TexCoords Transform",
+                    "value": 0
+                },
+                {
+                    "name": "Discard Transparent Pixels",
+                    "value": 0
+                },
+                {
+                    "name": "diffuseRepeatX",
+                    "value": 1
+                },
+                {
+                    "name": "diffuseRepeatY",
+                    "value": 1
+                },
+                {
+                    "name": "Tex Offset X",
+                    "value": 0
+                },
+                {
+                    "name": "Tex Offset Y",
+                    "value": 0
+                },
+                {
+                    "name": "Crop TexCoords",
+                    "value": 0
+                },
+                {
+                    "name": "billboard",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "hz69nc4mz",
+                            "objOut": "p3oc4o835"
+                        }
+                    ]
+                }
+            ],
+            "objName": "Ops.Gl.Shader.BasicMaterial_v3"
+        },
+        {
+            "id": "itcalfwty",
+            "portsIn": [
+                {
+                    "name": "File",
+                    "value": 0,
+                    "display": "file"
+                },
+                {
+                    "name": "Filter index",
+                    "value": 0
+                },
+                {
+                    "name": "Filter",
+                    "value": "nearest"
+                },
+                {
+                    "name": "Wrap index",
+                    "value": 0
+                },
+                {
+                    "name": "Wrap",
+                    "value": "repeat"
+                },
+                {
+                    "name": "Anisotropic index",
+                    "value": 0
+                },
+                {
+                    "name": "Anisotropic",
+                    "value": "0"
+                },
+                {
+                    "name": "Data Format index",
+                    "value": 3
+                },
+                {
+                    "name": "Data Format",
+                    "value": "RGBA"
+                },
+                {
+                    "name": "Flip",
+                    "value": 0
+                },
+                {
+                    "name": "Pre Multiplied Alpha",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Save Memory",
+                    "value": 1
+                },
+                {
+                    "name": "Add Cachebuster",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Texture",
+                    "links": [
+                        {
+                            "portIn": "texture",
+                            "portOut": "Texture",
+                            "objIn": "p3oc4o835",
+                            "objOut": "itcalfwty"
+                        }
+                    ]
+                },
+                {
+                    "name": "Width",
+                    "value": 0
+                },
+                {
+                    "name": "Height",
+                    "value": 0
+                },
+                {
+                    "name": "Aspect Ratio",
+                    "value": 0
+                },
+                {
+                    "name": "Loaded",
+                    "value": 0
+                },
+                {
+                    "name": "Loading",
+                    "value": 0
+                }
+            ],
+            "objName": "Ops.Gl.Texture_v2"
+        }
+    ],
+    "export": {
+        "time": "2026-03-05 09:33",
+        "service": "html",
+        "exportNumber": 2
+    }
+}
