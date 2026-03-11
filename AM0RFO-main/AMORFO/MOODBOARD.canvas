@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"7f013a190e369ca0","type":"text","text":"https://www.abhijitrout.in/?ref=minimal.gallery","x":-345,"y":-318,"width":250,"height":60,"color":"5"},
+		{"id":"1dcd851e3a3c59f6","type":"text","text":"https://andreadominici.com/?ref=minimal.gallery","x":-73,"y":-318,"width":250,"height":60,"color":"5"},
+		{"id":"20a4d6f00b20221d","type":"text","text":"https://paysages.studio/?ref=minimal.gallery","x":-73,"y":-242,"width":250,"height":66,"color":"5"},
+		{"id":"d3b99d1f3b020c95","type":"text","text":"https://lastingpetals.org/?ref=minimal.gallery","x":-345,"y":-242,"width":250,"height":66,"color":"5"},
+		{"id":"37c647dc0769f4a0","type":"text","text":"https://stefanivujic.com/?ref=minimal.gallery","x":-345,"y":-157,"width":250,"height":60,"color":"5"},
+		{"id":"12024af5ece7ad62","type":"text","text":"https://www.richardsancho.com/?ref=minimal.gallery","x":-73,"y":-157,"width":250,"height":60,"color":"5"},
+		{"id":"6eb0a09b0530d91f","type":"text","text":"https://www.samuelday.de/?ref=minimal.gallery","x":-345,"y":-80,"width":250,"height":60,"color":"5"},
+		{"id":"56f834e74801ab37","type":"text","text":"https://arturistic.world/","x":-73,"y":-80,"width":250,"height":60,"color":"5"},
+		{"id":"f55539bce4f139bf","type":"text","text":"https://www.cubiflow.com/","x":-73,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"e4e00b32e8bfdeff","type":"text","text":"https://www.unpolished.art/?ref=minimal.gallery","x":-345,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"8dee454fe73e0156","type":"text","text":"https://danny-garcia.com/?ref=minimal.gallery","x":-345,"y":80,"width":250,"height":60,"color":"5"},
+		{"id":"5af9cf4f7aa95b33","type":"text","text":"SITES (Inspirações)","x":-161,"y":-460,"width":176,"height":60,"color":"5"},
+		{"id":"b72ccc076f68616c","type":"file","file":"AMORFO/Tema e Subtema.md","x":-345,"y":-1120,"width":1505,"height":620,"color":"#b8325b"},
+		{"id":"9a912a630ce4e75e","type":"text","text":"https://csh.bz/line/05x6.html","x":-73,"y":80,"width":250,"height":60,"color":"5"},
+		{"id":"e0a32cf792c5e8f0","type":"text","text":"REFERÊNCIAS","x":620,"y":-460,"width":250,"height":60,"color":"#c70000"},
+		{"id":"098b25e47e631b4a","type":"file","file":"AMORFO/INTERAÇÃO LETRA.png","x":620,"y":-347,"width":480,"height":485,"color":"#701010"},
+		{"id":"0b57ae5611530eb3","type":"text","text":"https://zachlieberman.medium.com/daily-sketches-2016-28586d8f008e","x":620,"y":140,"width":480,"height":50,"color":"#7b0a0a"},
+		{"id":"965617e89d9d882c","type":"text","text":"FORMULÁRIO","x":304,"y":-460,"width":163,"height":60,"color":"3"},
+		{"id":"e34393ef512e1a52","type":"text","text":"https://docs.google.com/forms/d/16VIsXTjDkKHnmepvByk7_gpzu2xKZKMkgBV9vCYenso/edit","x":261,"y":-318,"width":250,"height":109,"color":"3"},
+		{"id":"cdcdef3670a88842","type":"file","file":"AMORFO/Layout do Site.md","x":-800,"y":-1120,"width":400,"height":1310,"color":"6"}
+	],
+	"edges":[
+		{"id":"4e5ce54876d732a7","fromNode":"e34393ef512e1a52","fromSide":"top","toNode":"965617e89d9d882c","toSide":"bottom"},
+		{"id":"624d1400e2f6b2ce","fromNode":"7f013a190e369ca0","fromSide":"top","toNode":"5af9cf4f7aa95b33","toSide":"bottom"},
+		{"id":"60aea02e1e9c99e7","fromNode":"1dcd851e3a3c59f6","fromSide":"top","toNode":"5af9cf4f7aa95b33","toSide":"bottom","label":"\n"},
+		{"id":"f0d9c8c8f5f2cef4","fromNode":"1dcd851e3a3c59f6","fromSide":"bottom","toNode":"20a4d6f00b20221d","toSide":"top"},
+		{"id":"731b0e8d090b9694","fromNode":"20a4d6f00b20221d","fromSide":"bottom","toNode":"12024af5ece7ad62","toSide":"top"},
+		{"id":"982fc8a4300550a3","fromNode":"12024af5ece7ad62","fromSide":"bottom","toNode":"56f834e74801ab37","toSide":"top"},
+		{"id":"0199f7c2382c9361","fromNode":"56f834e74801ab37","fromSide":"bottom","toNode":"f55539bce4f139bf","toSide":"top"},
+		{"id":"2a73268446188256","fromNode":"d3b99d1f3b020c95","fromSide":"bottom","toNode":"37c647dc0769f4a0","toSide":"top"},
+		{"id":"21c54f5e24de0e6a","fromNode":"37c647dc0769f4a0","fromSide":"bottom","toNode":"6eb0a09b0530d91f","toSide":"top"},
+		{"id":"64dd2a61437d0388","fromNode":"6eb0a09b0530d91f","fromSide":"bottom","toNode":"e4e00b32e8bfdeff","toSide":"top"},
+		{"id":"9186df566c36a8d6","fromNode":"7f013a190e369ca0","fromSide":"bottom","toNode":"d3b99d1f3b020c95","toSide":"top"},
+		{"id":"fc5f3348cdd2d8ff","fromNode":"7f013a190e369ca0","fromSide":"bottom","toNode":"d3b99d1f3b020c95","toSide":"top"},
+		{"id":"9d19cc33c5d5e5d8","fromNode":"e4e00b32e8bfdeff","fromSide":"bottom","toNode":"8dee454fe73e0156","toSide":"top"},
+		{"id":"a4a6484a5aaf482b","fromNode":"f55539bce4f139bf","fromSide":"bottom","toNode":"9a912a630ce4e75e","toSide":"top"},
+		{"id":"c5d436985e11ddba","fromNode":"0b57ae5611530eb3","fromSide":"left","toNode":"098b25e47e631b4a","toSide":"left"}
+	]
+}

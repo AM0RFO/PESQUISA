@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"7f542fd2bd32595e","x":-935,"y":239,"width":860,"height":911,"type":"group","label":"Questions"},
+		{"id":"e34393ef512e1a52","type":"text","text":"https://docs.google.com/forms/d/16VIsXTjDkKHnmepvByk7_gpzu2xKZKMkgBV9vCYenso/edit","x":615,"y":-206,"width":250,"height":109,"color":"3"},
+		{"id":"7f013a190e369ca0","type":"text","text":"https://www.abhijitrout.in/?ref=minimal.gallery","x":-345,"y":-318,"width":250,"height":60},
+		{"id":"1dcd851e3a3c59f6","type":"text","text":"https://andreadominici.com/?ref=minimal.gallery","x":-73,"y":-318,"width":250,"height":60},
+		{"id":"20a4d6f00b20221d","type":"text","text":"https://paysages.studio/?ref=minimal.gallery","x":-73,"y":-242,"width":250,"height":66},
+		{"id":"d3b99d1f3b020c95","type":"text","text":"https://lastingpetals.org/?ref=minimal.gallery","x":-345,"y":-242,"width":250,"height":66},
+		{"id":"37c647dc0769f4a0","type":"text","text":"https://stefanivujic.com/?ref=minimal.gallery","x":-345,"y":-157,"width":250,"height":60},
+		{"id":"12024af5ece7ad62","type":"text","text":"https://www.richardsancho.com/?ref=minimal.gallery","x":-73,"y":-157,"width":250,"height":60},
+		{"id":"6eb0a09b0530d91f","type":"text","text":"https://www.samuelday.de/?ref=minimal.gallery","x":-345,"y":-80,"width":250,"height":60},
+		{"id":"56f834e74801ab37","type":"text","text":"https://arturistic.world/","x":-73,"y":-80,"width":250,"height":60},
+		{"id":"f55539bce4f139bf","type":"text","text":"https://www.cubiflow.com/","x":-73,"y":0,"width":250,"height":60},
+		{"id":"e4e00b32e8bfdeff","type":"text","text":"https://www.unpolished.art/?ref=minimal.gallery","x":-345,"y":0,"width":250,"height":60},
+		{"id":"8dee454fe73e0156","type":"text","text":"https://danny-garcia.com/?ref=minimal.gallery","x":-345,"y":80,"width":250,"height":60},
+		{"id":"965617e89d9d882c","type":"text","text":"FORMULÁRIO","x":672,"y":-318,"width":136,"height":60},
+		{"id":"5af9cf4f7aa95b33","type":"text","text":"SITES (Inspirações)","x":-161,"y":-460,"width":176,"height":60},
+		{"id":"b72ccc076f68616c","type":"file","file":"Tema e Subtema.md","x":-345,"y":-980,"width":921,"height":480,"color":"#b8325b"},
+		{"id":"9a912a630ce4e75e","type":"text","text":"https://csh.bz/line/05x6.html","x":-73,"y":80,"width":250,"height":60},
+		{"id":"326ce7f16f5e0fff","type":"text","text":"Webgraphy","x":462,"y":154,"width":250,"height":60},
+		{"id":"0a3ee8e391f464bb","type":"text","text":"https://cliquestudios.com/clique-university/history-web-design\n\nhttps://info.cern.ch/\n\nOlivier Larose: ","x":405,"y":239,"width":250,"height":501},
+		{"id":"3ecedf9822dbaac0","type":"file","file":"Conteúdo/What did you ask yourself recently?.md","x":-915,"y":290,"width":400,"height":400},
+		{"id":"b4ea99a3cad19db0","type":"file","file":"Conteúdo/What worries you?.md","x":-915,"y":730,"width":400,"height":400},
+		{"id":"8ee794f627ed1d76","type":"file","file":"Conteúdo/What is the oldest question you still don't have an answer to?.md","x":-495,"y":290,"width":400,"height":400},
+		{"id":"ed2b1d55f23b7efc","type":"file","file":"Conteúdo/What feelings do these questions evoke in you?.md","x":-495,"y":730,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"4e5ce54876d732a7","fromNode":"e34393ef512e1a52","fromSide":"top","toNode":"965617e89d9d882c","toSide":"bottom"},
+		{"id":"624d1400e2f6b2ce","fromNode":"7f013a190e369ca0","fromSide":"top","toNode":"5af9cf4f7aa95b33","toSide":"bottom"},
+		{"id":"60aea02e1e9c99e7","fromNode":"1dcd851e3a3c59f6","fromSide":"top","toNode":"5af9cf4f7aa95b33","toSide":"bottom","label":"\n"},
+		{"id":"f0d9c8c8f5f2cef4","fromNode":"1dcd851e3a3c59f6","fromSide":"bottom","toNode":"20a4d6f00b20221d","toSide":"top"},
+		{"id":"731b0e8d090b9694","fromNode":"20a4d6f00b20221d","fromSide":"bottom","toNode":"12024af5ece7ad62","toSide":"top"},
+		{"id":"982fc8a4300550a3","fromNode":"12024af5ece7ad62","fromSide":"bottom","toNode":"56f834e74801ab37","toSide":"top"},
+		{"id":"0199f7c2382c9361","fromNode":"56f834e74801ab37","fromSide":"bottom","toNode":"f55539bce4f139bf","toSide":"top"},
+		{"id":"2a73268446188256","fromNode":"d3b99d1f3b020c95","fromSide":"bottom","toNode":"37c647dc0769f4a0","toSide":"top"},
+		{"id":"21c54f5e24de0e6a","fromNode":"37c647dc0769f4a0","fromSide":"bottom","toNode":"6eb0a09b0530d91f","toSide":"top"},
+		{"id":"64dd2a61437d0388","fromNode":"6eb0a09b0530d91f","fromSide":"bottom","toNode":"e4e00b32e8bfdeff","toSide":"top"},
+		{"id":"9186df566c36a8d6","fromNode":"7f013a190e369ca0","fromSide":"bottom","toNode":"d3b99d1f3b020c95","toSide":"top"},
+		{"id":"fc5f3348cdd2d8ff","fromNode":"7f013a190e369ca0","fromSide":"bottom","toNode":"d3b99d1f3b020c95","toSide":"top"},
+		{"id":"9d19cc33c5d5e5d8","fromNode":"e4e00b32e8bfdeff","fromSide":"bottom","toNode":"8dee454fe73e0156","toSide":"top"},
+		{"id":"a4a6484a5aaf482b","fromNode":"f55539bce4f139bf","fromSide":"bottom","toNode":"9a912a630ce4e75e","toSide":"top"}
+	]
+}
